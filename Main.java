@@ -51,5 +51,18 @@ class Main {
     public String getThingKingdomHearts() {
       return thingKingdomHearts;
     }
+    public static class EldenRing extends RpgGames {
+    private String thingEldenRing;
+    public EldenRing(String startThingEldenRing) {
+      super("this");
+      thingEldenRing = startThingEldenRing;
+    }
+    public void setThingEldenRing(String newThingEldenRing) {
+      thingEldenRing = newThingEldenRing;
+    }
+    public String getThingEldenRing() {
+      return thingEldenRing;
+    }
+    }
   }
 }
